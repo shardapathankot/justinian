@@ -1,0 +1,280 @@
+/*
+Theme Name: Paper News
+Theme URI: https://themeansar.com/free-themes/papernews/
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Paper News is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Paper News is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Paper News is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/newsair/papernews/ and documentation at https://docs.themeansar.com/docs/newsair/
+Version: 0.5
+Requires PHP: 7.0
+Requires at least: 5.4
+Tested up to: 6.4.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: newsair
+Text Domain: paper-news
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Paper News WordPress Theme is child theme of Blogus, Copyright 2023 Themeansar
+Paper News is distributed under the terms of the GNU General Public License v3
+
+Paper News is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+p a {
+    text-decoration: underline;
+}
+a:focus {
+    outline: 1px solid;
+}
+.navbar-toggler.x:focus {
+    outline: 1px solid #000;
+    padding: 5px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	font-family: 'IBM Plex Serif', serif;
+}
+body{
+    font-family: 'PT Serif', serif;
+}
+.bs-widget .wp-block-search__label{
+    font-family: 'IBM Plex Serif', serif;
+}
+.bs-blog-post{
+    box-shadow: none;
+}
+.bs-sidebar .bs-widget{
+    box-shadow: none;
+}
+.small-post:last-child {
+    border-bottom: 1px solid var(--bor-color);
+}
+.bs-headthree .bs-header-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+.bs-headthree .navbar-wp {
+    margin: 0;
+    z-index: 999;
+    transition: all 1s ease-out;
+    border-radius: 0;
+    min-height: 55px;
+    height: auto;
+    border-width: 2px 0 1px;
+    border-style: solid;
+}
+.bs-headthree .navbar-header {
+    height: auto;
+}
+.bs-headthree .navbar-brand {
+    margin-right: unset;
+} 
+.bs-headthree .bs-header-main .inner {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+}
+.bs-headthree .navbar-header {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+.bs-headthree .bs-header-main .inner {
+    height: 150px;
+} 
+.bs-headthree .navbar-brand {
+    margin-right: unset;
+}
+.bs-headthree .right-nav a.subscribe-btn {
+    padding: 10px 15px ;
+}
+.bs-headthree .bs-menu-full a.subscribe-btn {
+    display: none;
+}
+.bs-headthree .navbar-wp .navbar-nav > li> a{
+    padding: 10px 15px;
+}
+.bs-headthree .switch .slider::before{
+    /* width: 35px;    
+    border-radius: 50%;
+    box-shadow: 0 2px 10px 0 #00000094; */
+}
+.bs-headthree .switch{
+    /* width: 35px; */
+}
+.bs-headthree.cont .navbar-wp {
+    padding: 5px;
+}
+.bs-headthree.cont .bs-menu-full {
+    z-index: 9999;
+}
+.bs-blog-post.three.sm .title {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.modal-backdrop { 
+    z-index: 9999;
+}
+.modal{
+    z-index: 99991;
+}
+.wd-back { 
+    box-shadow: unset; 
+}
+.bs-recent-blog-post .small-post .img-small-post {
+    width: 75px;
+    height: 75px;
+}
+.col-md-12.text-center.d-md-flex.justify-content-between {
+    padding: 0 15px;
+}
+.mainfeatured .wd-back {
+    background: UNSET;
+    box-shadow: unset;
+    padding: unset;
+}
+.list-blog .bs-blog-thumb {
+    width: 37%;
+    max-width: 37%;
+    min-width: 0;
+    height: 220px;
+    min-height: 220px;
+}
+.col-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+[class*=col-grid-] {
+    display: grid;
+    grid-gap: 1.5rem;
+}
+.bs-breadcrumb-section .overlay{
+    box-shadow: none;
+}
+.newsair-grid-column-posts .bs-blog-post.bshre {
+    box-shadow: unset;
+    margin-bottom: 0px;
+}
+.multi-post-widget .bs-blog-post.three.sm .title {
+    font-size: 16px;
+}
+.multi-post-widget .bs-blog-post.three.sm {
+    height: 220px;
+}
+.bs-default .desk-header .msearch{
+    display: none;
+}
+.bs-no-list-area {
+    display: grid;
+    grid-template-columns: repeat( 4,1fr );
+    grid-column-gap: 10px;
+}
+.bs-no-list-area .orderd-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    box-shadow: 2px 2px 0 0px #ed1515;
+    position: relative;
+    margin-right: 10px;
+    border-radius: 50%;
+	margin-bottom: 2px;
+}
+.bs-no-list-area .orderd-img img { 
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out 0s;
+}
+.bs-no-list-area .orderd-body{
+	flex: 1;
+}
+.bs-no-list-area .orderd-body h5 {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: -5px;
+    word-wrap: break-word;
+	z-index: 5;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	margin-bottom: 8px;
+	
+}
+.bs-no-list-area .count {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    z-index: 1;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bs-no-list-area .orderd-body .bs-blog-date a {
+    display: inline;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+.navbar-toggler.x {
+    background: transparent;
+}
+.bs-breadcrumb-section .overlay .container{
+    padding: 0;
+}
+footer .bs-footer-copyright .navbar-brand{
+    margin-right: 0;
+    display: block;
+}
+footer .bs-footer-copyright .navbar-brand img{
+    object-fit: contain;
+}
+/*---------------------------------------
+=========================================
+	Responsive Part
+=========================================
+-----------------------------------------*/
+@media (max-width: 991.98px) {
+    .bs-no-list-area .bs-no-list-items{
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
+    .bs-no-list-area {
+        grid-template-columns: repeat( 2,1fr );
+    }
+    .multi-post-widget{
+        display: grid;
+        grid-template-columns: repeat( 2,1fr);
+        grid-column-gap:5px ;
+    }
+    .bs-header-main .inner.responsive {
+        min-height: 0;
+        height: 20px;
+    }
+}
+@media (max-width: 767.98px) {
+    .bs-no-list-area {
+        grid-template-columns: repeat( 1,1fr );
+    }
+}

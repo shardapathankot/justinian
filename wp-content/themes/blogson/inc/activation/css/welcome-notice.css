@@ -1,0 +1,204 @@
+.blogson-notice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 0 0 5px rgb(0 0 0 / 0.1);
+    padding: 30px !important;
+}
+
+.blogson-notice .welcome-message {
+    max-width: 650px;
+    display: inline-block;
+}
+
+.blogson-notice .welcome-message h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.blogson-notice .welcome-message p {
+    font-size: 14px;
+}
+
+.blogson-notice .welcome-message .action-buttons {
+    margin-top: 30px;
+}
+
+.blogson-notice .welcome-message .action-buttons a {
+    padding: 20px 20px;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.blogson-notice .welcome-message .action-buttons a:hover {
+    background-color: #3a3a3a;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.blogson-notice .welcome-message .action-buttons a:focus,
+.blogson-notice .welcome-message .action-buttons a:active,
+.blogson-notice .welcome-message .action-buttons a:hover {
+    color: #fff;
+}
+
+.blogson-notice .welcome-message .action-buttons a .dashicons {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.blogson-notice .image-wrap {
+    text-align: right;
+    display: inline-block;
+    width: 480px;
+}
+
+.blogson-notice .image-wrap img {
+    display: inline-block;
+    width: 350px;
+}
+
+@media screen and (max-width: 1366px) {
+    .blogson-notice .image-wrap img {
+        max-width: 90%;
+    }
+
+    .blogson-notice .welcome-message p {
+        font-size: 13px;
+    }
+}
+
+.dot-flashing {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: -1px;
+    position: relative;
+    width: 3px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #3c434a;
+    color: #3c434a;
+    -webkit-animation: dotFlashing 1s infinite linear alternate;
+    animation: dotFlashing 1s infinite linear alternate;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+.dot-flashing::before, .dot-flashing::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.dot-flashing::before {
+    left: -6px;
+    width: 3px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #3c434a;
+    color: #3c434a;
+    -webkit-animation: dotFlashing 1s infinite alternate;
+    animation: dotFlashing 1s infinite alternate;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.dot-flashing::after {
+    left: 6px;
+    width: 3px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #3c434a;
+    color: #3c434a;
+    -webkit-animation: dotFlashing 1s infinite alternate;
+    animation: dotFlashing 1s infinite alternate;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes dotFlashing {
+    0% {
+        background-color: #3c434a;
+    }
+    50%,
+    100% {
+        background-color: #ebe6ff;
+    }
+}
+
+@keyframes dotFlashing {
+    0% {
+        background-color: #3c434a;
+    }
+    50%,
+    100% {
+        background-color: #ebe6ff;
+    }
+}
+
+/* button */
+
+ @keyframes TransitioningBackground {
+     0% {
+         background-position: 1% 0%;
+    }
+     50% {
+         background-position: 99% 100%;
+    }
+     100% {
+         background-position: 1% 0%;
+    }
+}
+ .getstarted-button {
+     font-size: 1rem;
+     font-weight: 600;
+     color: white;
+     text-align: center;
+     width: 200px;
+     height: 60px;
+     border-radius: 5px;
+     position: relative;
+     overflow: hidden;
+     background-image: linear-gradient(270deg, #131212, #f14b25);
+     background-size: 400% 400%;
+     animation: TransitioningBackground 10s ease infinite;
+     transition: 0.6s;
+}
+ .getstarted-button::before {
+     content: '';
+     display: block;
+     position: absolute;
+     background: rgba(255, 255, 255, 0.5);
+     width: 60px;
+     height: 100%;
+     top: 0;
+     filter: blur(30px);
+     transform: translateX(-100px) skewX(-15deg);
+}
+ .getstarted-button::after {
+     content: '';
+     display: block;
+     position: absolute;
+     background: rgba(255, 255, 255, 0.2);
+     width: 30px;
+     height: 100%;
+     top: 0;
+     filter: blur(5px);
+     transform: translateX(-100px) skewX(-15deg);
+}
+ .getstarted-button:hover {
+     background-image: linear-gradient(to left, #2d8fe5, #d155b8);
+     transform: scale(1.2);
+     cursor: pointer;
+}
+ .getstarted-button:hover::before, .getstarted-button:hover::after {
+     transform: translateX(300px) skewX(-15deg);
+     transition: 0.7s;
+}
+ 

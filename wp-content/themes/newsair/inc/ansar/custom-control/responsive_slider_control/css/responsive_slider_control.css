@@ -1,0 +1,99 @@
+.slide-control{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.slider {
+    height: 6px;
+    width:150px; 
+    margin-right: 15px;
+}
+.slider:hover {
+    opacity: 1;
+}
+.px-class{
+    margin-left: 0px;
+    font-weight: bold;
+}
+.responsive-range-control .device-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-devices-preview{
+    display: inline-flex;
+}
+.select-devices-preview .custom-hide-control{
+    margin: 0 0 0 6px;
+}
+.select-devices-preview button {
+    border: 0;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 3px;
+    color: #a5a5a5;
+    background-color: transparent;
+}
+.select-devices-preview button:hover, .select-devices-preview button.active {
+    color: #2271b1;
+}
+.select-devices-preview button i {
+    font-size: 16px;
+    line-height: 20px;
+    width: auto;
+}
+.responsive-range-control .responsive_slider {
+    display: flex;
+    align-items: center;
+}
+.responsive-range-control .responsive_slider .number-in {
+    width: 60px;
+    min-height: 20px;
+    height: 24px;
+    border: 1px solid #a6a6a6;
+    border-radius: 0px;
+    line-height: 1;
+}
+.responsive-range-control .responsive_slider .unit-class {
+    height: 24px;
+    border: 1px solid #a6a6a6;
+    font-size: 11px;
+}
+.responsive-range-control .responsive_slider .reset-default {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a6a6a6;
+    padding: 0 7px;
+    height: 22px;
+}
+li[id*= "customize-control-"] .responsive-range-control input[type=range]{
+    margin-right: 5px;
+}
+input::-webkit-slider-thumb {
+    /* background-color: red;
+    border: solid 12px red;
+    border-radius: 0;
+        
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    -webkit-appearance: none; */
+  }
+  /* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    background-color: #fff;
+
+  }
+  
+/* Track: webkit browsers
+input[type="range"]::-webkit-slider-runnable-track {
+    background: red;
+    height: 6px;
+  } */
+  

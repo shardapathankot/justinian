@@ -1,0 +1,18 @@
+[14-Nov-2020 17:12:36 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/index.php on line 17
+[14-Nov-2020 17:12:47 Australia/Sydney] PHP Notice:  Undefined index: wp_version in /home/gljcomau/public_html/wp-content/themes/glj/functions.php on line 40
+[14-Nov-2020 17:12:47 Australia/Sydney] PHP Fatal error:  Call to undefined function get_template_directory() in /home/gljcomau/public_html/wp-content/themes/glj/functions.php on line 41
+[27-Nov-2020 05:50:20 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/index.php on line 17
+[22-May-2021 21:59:05 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/404.php on line 10
+[06-Sep-2021 14:02:28 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/404.php on line 10
+[06-Sep-2021 14:02:28 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/archive.php on line 19
+[06-Sep-2021 14:02:29 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/404.php on line 10
+[06-Sep-2021 14:02:29 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/archive.php on line 19
+[06-Sep-2021 14:02:31 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/404.php on line 10
+[06-Sep-2021 14:02:31 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/archive.php on line 19
+[06-Sep-2021 14:02:38 Australia/Sydney] PHP Fatal error:  Call to undefined function language_attributes() in /home/gljcomau/public_html/wp-content/themes/glj/header.php on line 12
+[06-Sep-2021 14:02:38 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/index.php on line 17
+[06-Sep-2021 14:02:39 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/index.php on line 17
+[06-Sep-2021 14:02:39 Australia/Sydney] PHP Fatal error:  Call to undefined function language_attributes() in /home/gljcomau/public_html/wp-content/themes/glj/header.php on line 12
+[06-Sep-2021 14:02:40 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/index.php on line 17
+[06-Sep-2021 14:02:40 Australia/Sydney] PHP Fatal error:  Call to undefined function language_attributes() in /home/gljcomau/public_html/wp-content/themes/glj/header.php on line 12
+[07-Jul-2022 22:31:37 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/gljcomau/public_html/wp-content/themes/glj/index.php on line 17

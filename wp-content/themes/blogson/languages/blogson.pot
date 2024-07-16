@@ -1,0 +1,795 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-12-15 12:14+0530\n"
+"PO-Revision-Date: 2022-12-15 12:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: ;__;_e;esc_html;esc_html__;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:26 404.php:43 404.php:55
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:27 404.php:44 404.php:56
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"on right or a search?"
+msgstr ""
+
+#: blogson-pro/class-customize.php:77
+msgid "BlogSon Pro"
+msgstr ""
+
+#: blogson-pro/class-customize.php:78
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: comments.php:35
+msgid "user-image"
+msgstr ""
+
+#: comments.php:36
+msgid "says:"
+msgstr ""
+
+#: comments.php:44
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:48
+msgid "Edit"
+msgstr ""
+
+#: comments.php:52
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:88 comments.php:112
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:91 comments.php:115
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:92 comments.php:116
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:129
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:134
+msgid "Comment"
+msgstr ""
+
+#: comments.php:139
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:140
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:40
+msgid ""
+"You need to update your PHP version to a minimum of 5.6 to run BlogSon Theme."
+msgstr ""
+
+#: functions.php:41
+msgid "Actual version is:"
+msgstr ""
+
+#: functions.php:41
+msgid "required is"
+msgstr ""
+
+#: functions.php:91
+msgid "Primary"
+msgstr ""
+
+#: functions.php:92
+msgid "Footer"
+msgstr ""
+
+#: functions.php:93
+msgid "Sidebar Social"
+msgstr ""
+
+#: functions.php:94
+msgid "Footer Social"
+msgstr ""
+
+#: functions.php:175
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:177 functions.php:188
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:186
+msgid "Menu Left Sidebar"
+msgstr ""
+
+#: functions.php:272 inc/template-functions.php:144
+#: inc/template-functions.php:187
+msgid "Search here"
+msgstr ""
+
+#: functions.php:274 inc/template-functions.php:146
+#: inc/template-functions.php:188
+msgid "Search"
+msgstr ""
+
+#: inc/activation/class-welcome-notice.php:205
+#: inc/activation/class-welcome-notice.php:249
+msgid "Insufficient permissions to install the plugin."
+msgstr ""
+
+#: inc/activation/class-welcome-notice.php:237
+#: inc/activation/class-welcome-notice.php:272
+msgid "Failed to initialize or activate importer plugin."
+msgstr ""
+
+#: inc/activation/class-welcome-notice.php:325
+msgid "Welcome to BlogSon WordPress theme"
+msgstr ""
+
+#: inc/activation/class-welcome-notice.php:328
+msgid ""
+"Easily Customize all aspects of your WordPress site with BlogSon WordPress "
+"Theme & Elementor Page Builder."
+msgstr ""
+
+#: inc/activation/class-welcome-notice.php:334
+#, php-format
+msgid "Get Started with BlogSon %s"
+msgstr ""
+
+#: inc/activation/class-welcome-notice.php:401
+msgid "Something went wrong, contact support."
+msgstr ""
+
+#: inc/customizer/customizer.php:58
+msgid "Display Site Title and Tagline"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:17
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:27
+msgid "Posts"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:44
+msgid "Posts Category"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:64
+#: inc/customizer/options/section-blog.php:379
+msgid "Show Category"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:82
+msgid "Posts Meta"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:102
+#: inc/customizer/options/section-blog.php:476
+msgid "Show Date"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:122
+#: inc/customizer/options/section-blog.php:496
+msgid "Show Author"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:142
+#: inc/customizer/options/section-blog.php:516
+msgid "Show Comments"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:161
+msgid "Posts Meta Text Settings"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:173
+#: inc/customizer/options/section-blog.php:547
+#: template-parts/post/content-search.php:20
+#: template-parts/post/content-single.php:21 template-parts/post/content.php:33
+msgid "Posted by"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:184
+#: inc/customizer/options/section-blog.php:558
+msgid "Posted by Text"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:185
+msgid ""
+"You can change the Author Posted by text displayed in the posts meta and "
+"blog posts meta"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:194
+#: inc/customizer/options/section-blog.php:568
+#: template-parts/post/content-search.php:19
+#: template-parts/post/content-single.php:20 template-parts/post/content.php:32
+msgid "Posted on"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:205
+#: inc/customizer/options/section-blog.php:579
+msgid "Posted on Text"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:206
+msgid ""
+"You can change the Date Posted by text displayed in the posts meta and blog "
+"posts meta"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:215
+#: inc/customizer/options/section-blog.php:589
+#: template-parts/post/content-search.php:21
+#: template-parts/post/content-single.php:22 template-parts/post/content.php:34
+msgid "Comments"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:226
+#: inc/customizer/options/section-blog.php:600
+msgid "Comments Text"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:227
+msgid ""
+"You can change the Comments text displayed in the posts meta and blog posts "
+"meta"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:243
+#: inc/customizer/options/section-blog.php:659
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:265
+#: inc/customizer/options/section-blog.php:681
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:287
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:310
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:319
+#: template-parts/post/content.php:64
+msgid "READ MORE"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:330
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:342
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:359
+msgid "Post Category"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:391
+#: inc/customizer/options/section-blog.php:811 inc/template-functions.php:258
+msgid "Category:"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:402
+msgid "Category Text"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:418
+msgid "Post Tags"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:438
+msgid "Show Tags"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:456
+msgid "Post Meta"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:535
+msgid "Text Settings"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:559
+msgid ""
+"You can change the Author Posted by text displayed in the single posts meta "
+"and blog posts meta"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:580
+msgid ""
+"You can change the Date Posted by text displayed in the single posts meta "
+"and blog posts meta"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:601
+msgid ""
+"You can change the Comments text displayed in the single posts meta and blog "
+"posts meta"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:610 single.php:15
+msgid "Next Article"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:621
+msgid "Next Article Text"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:622
+#: inc/customizer/options/section-blog.php:643
+msgid "You can change the text displayed in the single post navigation"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:631 single.php:14
+msgid "Previous Article"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:642
+msgid "Previous Article Text"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:707
+msgid "Post Layout Width (%)"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:708
+msgid "Default is 65"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:727
+msgid "Show Full Width Post"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:743
+msgid "Archives"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:760
+msgid "Category Archives"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:780
+msgid "Show Category Title Options"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:798
+msgid "Category Title Settings"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:822
+msgid "Text Before Title"
+msgstr ""
+
+#: inc/customizer/options/section-blog.php:837
+msgid ""
+"If you do not see any changes in preview after changing options then click "
+"on publish button and then refresh the page again. "
+msgstr ""
+
+#: inc/customizer/options/section-footer.php:17
+#: inc/customizer/options/section-footer.php:32
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/options/section-footer.php:54
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/options/section-footer.php:55
+msgid "Copyright text to be displayed in the footer. No HTML allowed."
+msgstr ""
+
+#: inc/customizer/options/section-menusidebar.php:17
+#: inc/customizer/options/section-menusidebar.php:32
+msgid "Menu Sidebar Settings"
+msgstr ""
+
+#: inc/customizer/options/section-menusidebar.php:52
+msgid "Show Menu Sidebar"
+msgstr ""
+
+#: inc/customizer/options/section-menusidebar.php:71
+msgid ""
+"Note: After enabling this, Go to Appearance -> Widgets and put the widgets "
+"on Menu Left Sidebar"
+msgstr ""
+
+#: inc/customizer/options/section-menusidebar.php:91
+msgid "Note: Refresh the page if you do not see any changes"
+msgstr ""
+
+#: inc/customizer/options/section-preloader.php:17
+#: inc/customizer/options/section-preloader.php:32
+msgid "Preloader Settings"
+msgstr ""
+
+#: inc/customizer/options/section-preloader.php:52
+msgid "Show Preloader"
+msgstr ""
+
+#: inc/header-menu/content-style1.php:18 inc/header-menu/content-style1.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: inc/header-menu/content-style1.php:101
+msgid "primary"
+msgstr ""
+
+#: inc/header-menu/content-style1.php:103
+msgid "MENU"
+msgstr ""
+
+#: inc/header-menu/content-style1.php:105
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/template-functions.php:34 inc/template-functions.php:45
+msgid " | Theme by "
+msgstr ""
+
+#: inc/template-functions.php:34 inc/template-functions.php:45
+msgid "Spiracle Themes"
+msgstr ""
+
+#: inc/template-functions.php:84
+msgid "--Select--"
+msgstr ""
+
+#: inc/template-functions.php:150
+msgid "Close"
+msgstr ""
+
+#: inc/template-functions.php:186
+msgid "Search for:"
+msgstr ""
+
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:72 template-parts/page/content-page.php:28
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/theme-info.php:105
+msgid "About BlogSon Theme"
+msgstr ""
+
+#: inc/theme-info.php:105
+msgid "BlogSon Info"
+msgstr ""
+
+#: inc/theme-info.php:105
+msgid "blogson-theme-info"
+msgstr ""
+
+#: inc/theme-info.php:105
+msgid "blogson_theme_info"
+msgstr ""
+
+#: inc/theme-info.php:118
+msgid "Thank you for using BlogSon Free WordPress theme"
+msgstr ""
+
+#: inc/theme-info.php:120
+msgid ""
+"Are you looking for a WordPress theme to easily customize all aspects of "
+"your website? Look no further than BlogSon WordPress Theme and Elementor "
+"Page Builder. This powerful combination allows users to easily customize the "
+"fundamental elements of their WordPress website with no coding needed. "
+"BlogSon is an attractive and modern theme, allowing users to create "
+"beautiful websites in minutes. It features a mobile-friendly design, "
+"responsive layout, easy customization options, unlimited color schemes, a "
+"large collection of fonts and much more. With Elementor Page Builder users "
+"can quickly design stunning pages that look professional. Users have full "
+"control over what content is displayed where on their site as well as being "
+"able to create custom landing pages with ease. All this without writing any "
+"code!"
+msgstr ""
+
+#: inc/theme-info.php:132
+msgid "VIEW DEMO"
+msgstr ""
+
+#: inc/theme-info.php:142
+msgid "VIEW DOCUMENTATION"
+msgstr ""
+
+#: inc/theme-info.php:152
+msgid "VIDEO TUTORIALS"
+msgstr ""
+
+#: inc/theme-info.php:162
+msgid "ASK FOR SUPPORT"
+msgstr ""
+
+#: inc/theme-info.php:173
+msgid "RATE OUR THEME"
+msgstr ""
+
+#: inc/theme-info.php:183
+msgid "VIEW CHANGELOGS"
+msgstr ""
+
+#: inc/theme-info.php:191
+msgid "Why should you Upgrade to our PRO Addon ?"
+msgstr ""
+
+#: inc/theme-info.php:196
+msgid "Feature"
+msgstr ""
+
+#: inc/theme-info.php:197
+msgid "BlogSon Free"
+msgstr ""
+
+#: inc/theme-info.php:198
+msgid "Pro Addon Plugin"
+msgstr ""
+
+#: inc/theme-info.php:203
+msgid "Favicon, Logo, Title and Tagline Customization"
+msgstr ""
+
+#: inc/theme-info.php:208
+msgid "Customizer Theme Options"
+msgstr ""
+
+#: inc/theme-info.php:213
+msgid "Post Category Widgets"
+msgstr ""
+
+#: inc/theme-info.php:218
+msgid "2 & 3 Columns Layout"
+msgstr ""
+
+#: inc/theme-info.php:223
+msgid "Highlight Boxes"
+msgstr ""
+
+#: inc/theme-info.php:228
+msgid "Preloader"
+msgstr ""
+
+#: inc/theme-info.php:233
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/theme-info.php:238
+msgid "Sidebar Options (Full, Left and Right)"
+msgstr ""
+
+#: inc/theme-info.php:243
+msgid "1 Click Demo Import"
+msgstr ""
+
+#: inc/theme-info.php:248
+msgid "Gutenberg Compatible"
+msgstr ""
+
+#: inc/theme-info.php:254
+msgid "Color Settings"
+msgstr ""
+
+#: inc/theme-info.php:259
+msgid "Light and Dark Mode"
+msgstr ""
+
+#: inc/theme-info.php:264
+msgid "800+ Google Fonts"
+msgstr ""
+
+#: inc/theme-info.php:269
+msgid "Social Sharing Icons"
+msgstr ""
+
+#: inc/theme-info.php:274
+msgid "Author Details in Single Post"
+msgstr ""
+
+#: inc/theme-info.php:279
+msgid "Author Widget with Social Icons"
+msgstr ""
+
+#: inc/theme-info.php:284
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: inc/theme-info.php:289
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/theme-info.php:294
+msgid "Breadcrumb Display"
+msgstr ""
+
+#: inc/theme-info.php:299
+msgid "Related Posts"
+msgstr ""
+
+#: inc/theme-info.php:304
+msgid "3 Posts Slider"
+msgstr ""
+
+#: inc/theme-info.php:309
+msgid "MailChimp Newsletter Integration"
+msgstr ""
+
+#: inc/theme-info.php:314
+msgid "Footer Columns Widgets"
+msgstr ""
+
+#: inc/theme-info.php:319
+msgid "Popular Posts Widget"
+msgstr ""
+
+#: inc/theme-info.php:324
+msgid "Extra PRO Demos"
+msgstr ""
+
+#: inc/theme-info.php:329
+msgid "Priority Support"
+msgstr ""
+
+#: inc/theme-info.php:336
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: inc/theme-info.php:348
+msgid " Please "
+msgstr ""
+
+#: inc/theme-info.php:348
+msgid "rate our theme"
+msgstr ""
+
+#: inc/theme-info.php:349
+msgid ""
+"★★★★★ to help us spread the word. Thank you from the Spiracle Themes team!"
+msgstr ""
+
+#: inc/widgets/latest-posts-widget.php:19
+msgid "BlogSon: Latest Posts Widget"
+msgstr ""
+
+#: inc/widgets/latest-posts-widget.php:20
+msgid ""
+"Adds latest posts to the left or right sidebar in BlogSon WordPress theme. "
+msgstr ""
+
+#: inc/widgets/latest-posts-widget.php:40
+msgid "By"
+msgstr ""
+
+#: inc/widgets/latest-posts-widget.php:88
+msgid "post-image"
+msgstr ""
+
+#: inc/widgets/latest-posts-widget.php:134
+#: inc/widgets/social-icons-widget.php:73
+#: inc/widgets/top-categories-widget.php:78
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/latest-posts-widget.php:138
+#: inc/widgets/top-categories-widget.php:82
+msgid "Number of posts:"
+msgstr ""
+
+#: inc/widgets/latest-posts-widget.php:142
+msgid "Choose Category"
+msgstr ""
+
+#: inc/widgets/latest-posts-widget.php:143
+msgid "-- Select -- "
+msgstr ""
+
+#: inc/widgets/social-icons-widget.php:20
+msgid "BlogSon: Sidebar Social Icons Widget"
+msgstr ""
+
+#: inc/widgets/social-icons-widget.php:21
+msgid "Adds Social icons to sidebar in BlogSon WordPress theme"
+msgstr ""
+
+#: inc/widgets/top-categories-widget.php:19
+msgid "BlogSon: Top Categories Widget"
+msgstr ""
+
+#: inc/widgets/top-categories-widget.php:20
+msgid ""
+"Adds list of top categories to the left or right sidebar in BlogSon "
+"WordPress theme. "
+msgstr ""
+
+#: search.php:29 search.php:70 search.php:105
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:44 single.php:77 single.php:117 single.php:147 single.php:180
+msgid "Posts navigation"
+msgstr ""
+
+#: template-parts/page/content-page.php:18
+#: template-parts/post/content-single.php:49 template-parts/post/content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/post/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/post/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/post/content-single.php:57
+msgid "Category"
+msgstr ""
+
+#: template-parts/post/content.php:58
+msgid "Categories:"
+msgstr ""
